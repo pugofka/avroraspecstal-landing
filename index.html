@@ -3,258 +3,233 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ЗМК «Аврора» — Индустриальное производство металлоконструкций</title>
+  <title>ЗМК «Аврора» — Индустриальные металлоконструкции</title>
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <header class="topbar">
-    <div class="brand">
-      <div class="brand-mark">
-        <img src="assets/img/tmk.svg" alt="ТМК">
-      </div>
-      <div class="brand-text">
-        <strong>Аврора</strong>
-        <span>ЗМК · EST. 2012</span>
-      </div>
-    </div>
-    <nav class="nav">
-      <a href="#about">Компания</a>
-      <a href="#cycle">Производство</a>
-      <a href="#portfolio">Проекты</a>
-      <a href="#suppliers">Партнеры</a>
-      <a href="#contact">Связь</a>
-    </nav>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobileMenu" aria-label="Открыть меню">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <div class="contacts-inline">
-      <a class="link-mail" href="mailto:105@td-avrora.ru">105@td-avrora.ru</a>
-      <a class="btn btn-accent" href="#contact">Заявка</a>
-    </div>
-    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-      <div class="mobile-menu__content">
-        <button class="mobile-menu__close" type="button" aria-label="Закрыть меню">×</button>
-        <nav class="mobile-menu__nav">
-          <a href="#about">Компания</a>
-          <a href="#cycle">Производство</a>
-          <a href="#portfolio">Проекты</a>
-          <a href="#suppliers">Партнеры</a>
-          <a href="#contact">Связь</a>
-        </nav>
-        <div class="mobile-menu__contacts">
-          <a class="mobile-menu__link" href="mailto:105@td-avrora.ru">105@td-avrora.ru</a>
-          <a class="mobile-menu__link" href="tel:89006476606">8 900 647-66-06</a>
-          <a class="btn btn-accent" href="#contact">Заявка</a>
+    <div class="container">
+      <div class="brand">
+        <div class="brand-mark">
+          <img src="assets/img/tmk.svg" alt="ТМК">
+        </div>
+        <div class="brand-text">
+          <strong>Аврора</strong>
+          <span>ЗМК · EST. 2012</span>
         </div>
       </div>
+      <nav class="nav">
+        <a href="#about">Компания</a>
+        <a href="#cycle">Производство</a>
+        <a href="#portfolio">Кейсы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <div class="contacts-inline">
+        <a class="btn btn-primary" href="#contact" style="padding: 12px 24px; font-size: 12px;">Заявка</a>
+      </div>
+      <button class="nav-toggle" type="button" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </header>
 
   <main>
     <section class="hero" id="about">
-      <div class="hero__grid">
-        <div class="hero__content">
-          <p class="eyebrow">Индустриальный брутализм · СПБ</p>
-          <h1>Металл для высшей лиги бизнеса.</h1>
-          <p class="lede">
-            Проектируем и производим металлоконструкции с точностью до миллиметра. Никаких переделок на монтаже. Только чистая инженерия.
-          </p>
+      <div class="container">
+        <div class="hero__content" data-animate>
+          <span class="eyebrow">// ИНДУСТРИАЛЬНЫЙ БРУТАЛИЗМ</span>
+          <h1>Металлоконструкции, приносящие прибыль.</h1>
+          <p class="lede">Мы превращаем металл в инструмент роста: точные расчёты, чистая геометрия и долговечность без лишних ремонтов.</p>
           <div class="hero__actions">
-            <a class="btn btn-accent" href="#contact">Обсудить проект</a>
-            <a class="btn btn-ghost" href="tel:89006476606">8 900 647-66-06</a>
+            <a class="btn btn-primary" href="#contact">Оставить заявку</a>
+            <a class="btn btn-secondary" href="tel:89006476606">8 900 647-66-06</a>
           </div>
           <div class="hero__badges">
-            <span>Собственное производство</span>
-            <span>КМ / КМД / Расчёты</span>
-            <span>Доставка по РФ</span>
+            <span>Производство в СПб</span>
+            <span>Проектирование</span>
+            <span>Доставка</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="benefits">
-      <div class="section-header">
-        <p class="eyebrow">Почему мы</p>
-        <h2>Стальные аргументы</h2>
-      </div>
-      <div class="cards-grid">
-        <article class="card">
-          <h3>Полный цикл</h3>
-          <p>От первичных расчётов нагрузок до финального монтажа. Один ответственный за весь результат.</p>
-        </article>
-        <article class="card">
-          <h3>Zero-Waste Геометрия</h3>
-          <p>Используем лазерную резку и ЧПУ-гибку. Конструкции собираются как конструктор, без лишних швов.</p>
-        </article>
-        <article class="card">
-          <h3>Договорные сроки</h3>
-          <p>Задержка на день — это потеря денег. Мы фиксируем сроки в договоре и подтверждаем их делом.</p>
-        </article>
+    <section class="services" id="benefits">
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-num">/01</span>
+          <h2>Почему с нами <br>надежно</h2>
+        </div>
+        <div class="services-grid" data-animate>
+          <article class="service-card">
+            <span class="card-num">01.</span>
+            <h3>Полный цикл</h3>
+            <p>От расчётов и КМД до изготовления и монтажа. Один ответственный за весь результат.</p>
+          </article>
+          <article class="service-card">
+            <span class="card-num">02.</span>
+            <h3>Точность ±1 мм</h3>
+            <p>Современное оборудование и строгий контроль. Конструкции собираются без лишних подгонок.</p>
+          </article>
+          <article class="service-card">
+            <span class="card-num">03.</span>
+            <h3>Договорные сроки</h3>
+            <p>Подтверждаем сроки договором и держим обещания. Мы ценим время вашего бизнеса.</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="cycle" id="cycle">
-      <div class="section-header">
-        <p class="eyebrow">Технология</p>
-        <h2>Инженерный процесс</h2>
-      </div>
-      <div class="timeline">
-        <div class="step">
-          <div class="step__number">01</div>
-          <div>
-            <h4>Аналитика</h4>
-            <p>Подбор металлопроката под ваши нагрузки. Оптимизация сметы без потери прочности.</p>
-          </div>
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-num">/02</span>
+          <h2>Цикл работ</h2>
         </div>
-        <div class="step">
-          <div class="step__number">02</div>
-          <div>
-            <h4>Проектирование</h4>
-            <p>Разработка КМ и КМД. Детальная проработка каждого узла соединения.</p>
+        <div class="timeline" data-animate>
+          <div class="step">
+            <div class="step__number">01</div>
+            <div>
+              <h4>Аналитика</h4>
+              <p>Сбор исходных данных, подбор металлопроката, расчёт нагрузок и стоимости.</p>
+            </div>
           </div>
-        </div>
-        <div class="step">
-          <div class="step__number">03</div>
-          <div>
-            <h4>Изготовление</h4>
-            <p>Сварка по ГОСТ, контроль швов, зачистка и подготовка к защитному покрытию.</p>
+          <div class="step">
+            <div class="step__number">02</div>
+            <div>
+              <h4>Проектирование</h4>
+              <p>КМ и КМД, спецификации и карты раскроя для оптимизации расхода металла.</p>
+            </div>
           </div>
-        </div>
-        <div class="step">
-          <div class="step__number">04</div>
-          <div>
-            <h4>Защита</h4>
-            <p>Антикоррозийная обработка и промышленная покраска в собственных камерах.</p>
+          <div class="step">
+            <div class="step__number">03</div>
+            <div>
+              <h4>Производство</h4>
+              <p>Резка, гибка, сварка. Контроль геометрии и швов на каждом узле.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step__number">04</div>
+            <div>
+              <h4>Монтаж</h4>
+              <p>Логистика по графику, маркировка элементов и сопровождение при сборке.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="portfolio" id="portfolio">
-      <div class="section-header">
-        <p class="eyebrow">Кейсы</p>
-        <h2>Объекты в работе</h2>
-      </div>
-
-      <div class="works-slider" data-slider="portfolio">
-        <button class="works-slider__btn works-slider__btn--prev" type="button" aria-label="Назад">←</button>
-        <div class="works-slider__viewport">
-          <div class="works-slider__track">
-            <article class="work-card" data-title="Складской комплекс 1200м²" data-desc="Полный каркас, сварные балки переменного сечения." data-img="assets/img/works/1.webp">
-              <div class="work-card__media">
-                <img src="assets/img/works/1.webp" alt="Склад">
-              </div>
-              <div class="work-card__body">
-                <h3>Складской комплекс 1200м²</h3>
-                <p>Полный каркас, сварные балки переменного сечения. Заводская готовность узлов — 95%.</p>
-                <button class="btn btn-ghost" style="margin-top: 30px;">Детали объекта</button>
-              </div>
-            </article>
-
-            <article class="work-card" data-title="Промышленный мезонин" data-desc="Трёхуровневая система для логистического хаба." data-img="assets/img/works/2.webp">
-              <div class="work-card__media">
-                <img src="assets/img/works/2.webp" alt="Мезонин">
-              </div>
-              <div class="work-card__body">
-                <h3>Промышленный мезонин</h3>
-                <p>Трёхуровневая система для логистического хаба. Нагрузка до 1500кг на м².</p>
-                <button class="btn btn-ghost" style="margin-top: 30px;">Детали объекта</button>
-              </div>
-            </article>
-
-            <article class="work-card" data-title="Эстакады под оборудование" data-desc="Усиленные опоры для нефтехимического производства." data-img="assets/img/works/3.webp">
-              <div class="work-card__media">
-                <img src="assets/img/works/3.webp" alt="Эстакада">
-              </div>
-              <div class="work-card__body">
-                <h3>Эстакады под оборудование</h3>
-                <p>Усиленные опоры для нефтехимического производства. Высокопрочные болтовые соединения.</p>
-                <button class="btn btn-ghost" style="margin-top: 30px;">Детали объекта</button>
-              </div>
-            </article>
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-num">/03</span>
+          <h2>Выполненные работы</h2>
+        </div>
+        
+        <div class="works-slider" data-slider="portfolio" data-animate>
+          <div class="works-slider__viewport">
+            <div class="works-slider__track">
+              <article class="work-card" data-title="Складской комплекс 1200м²" data-desc="Сварные балки, заводская окраска и маркировка для быстрого монтажа." data-img="assets/img/works/1.webp">
+                <div class="work-card__media">
+                  <img src="assets/img/works/1.webp" alt="Склад">
+                </div>
+                <div class="work-card__info">
+                  <h3>Каркас склада 1200м²</h3>
+                  <p>Промышленная логистика</p>
+                </div>
+              </article>
+              <article class="work-card" data-title="Мезонинная система" data-desc="Трехуровневая система для паллетного хранения." data-img="assets/img/works/2.webp">
+                <div class="work-card__media">
+                  <img src="assets/img/works/2.webp" alt="Мезонин">
+                </div>
+                <div class="work-card__info">
+                  <h3>Мезонин · 3 уровня</h3>
+                  <p>Складское хранение</p>
+                </div>
+              </article>
+              <article class="work-card" data-title="Крановый путь" data-desc="Усиленные балки с высокой точностью геометрии для цеха." data-img="assets/img/works/3.webp">
+                <div class="work-card__media">
+                  <img src="assets/img/works/3.webp" alt="Крановый путь">
+                </div>
+                <div class="work-card__info">
+                  <h3>Крановый путь</h3>
+                  <p>Промышленный цех</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <div class="works-slider__dots"></div>
+            <div class="slider-arrows">
+              <button class="slider-arrow prev" aria-label="Назад">←</button>
+              <button class="slider-arrow next" aria-label="Вперед">→</button>
+            </div>
           </div>
         </div>
-        <button class="works-slider__btn works-slider__btn--next" type="button" aria-label="Вперед">→</button>
-        <div class="works-slider__dots"></div>
       </div>
     </section>
 
     <section class="suppliers" id="suppliers">
-      <div class="section-header">
-        <p class="eyebrow">Партнеры</p>
-        <h2>Сталь от лидеров</h2>
-      </div>
-      <div class="logo-row logo-row--suppliers">
-        <div class="logo-chip"><img src="assets/img/suppliers/severstal-logo-rus.svg" alt="Северсталь"></div>
-        <div class="logo-chip"><img src="assets/img/suppliers/NLMK.svg" alt="НЛМК"></div>
-        <div class="logo-chip"><img src="assets/img/suppliers/mmk.svg" alt="ММК"></div>
-        <div class="logo-chip"><img src="assets/img/suppliers/mechel-1720318275-logotic-brand.svg" alt="Мечел"></div>
-        <div class="logo-chip"><img src="assets/img/suppliers/omk-1.svg" alt="ОМК"></div>
-      </div>
-    </section>
-
-    <section class="cta-banner">
-      <h3>Нужен точный расчёт сметы?</h3>
-      <a class="btn btn-accent" href="#contact">Прислать ТЗ</a>
-    </section>
-
-    <section class="contact" id="contact">
-      <div class="contact__info">
-        <p class="eyebrow">Локация</p>
-        <h2>Свяжитесь напрямую</h2>
-        <div class="contact__grid">
-          <div>
-            <h4>Офис</h4>
-            <p>СПБ, ул. Губина 16А</p>
-          </div>
-          <div>
-            <h4>Производство</h4>
-            <p>СПБ, ул. Челябинская 160</p>
-          </div>
-          <div>
-            <h4>Связь</h4>
-            <p>8 900 647-66-06<br>105@td-avrora.ru</p>
-          </div>
+      <div class="container">
+        <div class="section-header" data-animate>
+          <span class="section-num">/04</span>
+          <h2>Партнеры</h2>
+        </div>
+        <div class="logo-row logo-row--suppliers" data-animate>
+          <div class="logo-chip"><img src="assets/img/suppliers/severstal-logo-rus.svg" alt="Северсталь"></div>
+          <div class="logo-chip"><img src="assets/img/suppliers/NLMK.svg" alt="НЛМК"></div>
+          <div class="logo-chip"><img src="assets/img/suppliers/mmk.svg" alt="ММК"></div>
+          <div class="logo-chip"><img src="assets/img/suppliers/mechel-1720318275-logotic-brand.svg" alt="Мечел"></div>
+          <div class="logo-chip"><img src="assets/img/suppliers/omk-1.svg" alt="ОМК"></div>
         </div>
       </div>
+    </section>
 
-      <div class="contact__form">
-        <form id="leadForm">
-          <div class="form-row">
-            <label for="name">Ваше имя</label>
-            <input id="name" name="name" type="text" placeholder="Имя" required>
-          </div>
-          <div class="form-row">
-            <label for="phone">Телефон</label>
-            <input id="phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__" required>
-          </div>
-          <div class="form-row">
-            <label for="message">Задача</label>
-            <textarea id="message" name="message" rows="3" placeholder="Кратко опишите проект"></textarea>
-          </div>
-          <div class="form-actions">
-            <button type="submit" class="btn btn-accent">Отправить запрос</button>
-            <span class="form-status" id="formStatus"></span>
-          </div>
-        </form>
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta-content" data-animate>
+          <h2>Нужен быстрый просчёт? <br>Пришлите ТЗ — ответим сегодня.</h2>
+          <form id="leadForm" class="contact-form">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Ваше имя" required>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" placeholder="Телефон" required>
+            </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Описание задачи"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить запрос</button>
+            <p id="formStatus" class="form-status"></p>
+          </form>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div>ЗМК «Аврора» · 2026 · ИНДУСТРИАЛЬНЫЙ ПОДРЯДЧИК</div>
-    <div class="footer__links">
-      <a href="mailto:105@td-avrora.ru">105@td-avrora.ru</a>
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <strong>Аврора</strong>
+          <p>// ARCHITECTING INDUSTRIAL GROWTH<br>SINCE 2012. ST. PETERSBURG.</p>
+        </div>
+        <nav class="footer__nav">
+          <a href="mailto:105@td-avrora.ru">105@td-avrora.ru</a>
+          <a href="tel:89006476606">8 900 647-66-06</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 AVRORA. ALL SYSTEMS OPERATIONAL.</span>
+      </div>
     </div>
   </footer>
 
-  <div class="work-modal" aria-hidden="true">
+  <div class="work-modal" aria-hidden="true" data-close="modal">
     <div class="work-modal__backdrop" data-close="modal"></div>
-    <div class="work-modal__dialog" role="dialog" aria-modal="true">
-      <button class="work-modal__close" type="button" data-close="modal">×</button>
+    <div class="work-modal__dialog">
+      <button class="work-modal__close" data-close="modal">×</button>
       <div class="work-modal__media">
         <img src="" alt="">
       </div>
@@ -262,6 +237,18 @@
         <h3 class="work-modal__title"></h3>
         <p class="work-modal__desc"></p>
       </div>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu__content">
+      <button class="mobile-menu__close" onclick="document.getElementById('mobileMenu').classList.remove('is-open')">×</button>
+      <nav class="mobile-menu__nav">
+        <a href="#about">Компания</a>
+        <a href="#cycle">Производство</a>
+        <a href="#portfolio">Кейсы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
     </div>
   </div>
 
